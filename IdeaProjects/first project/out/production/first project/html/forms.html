@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forms</title>
+</head>
+<body>
+    <form action="" method="get">
+        <div>
+            <label for="email"><b>Username</b></label><br>
+            <input type="email" name="email" id="email" required placeholder="abc@gmail.com">
+        </div>
+        <div>
+            <label for="password"><b>Password</b></label><br>
+            <input type="password" name="password" id="password" required placeholder="password">
+        </div>
+        <div>
+            <label for="price"><b>price</b></label><br>
+            <input type="range" id="price" min="0" max="100" step="5">
+        </div>
+
+        <div>
+            <label for="month">Month_Selection</label>
+            <select name="month" id="month">
+                <option>jan</option>
+                <option>feb</option>
+                <option>mar</option>
+                <option>jun</option>
+                <option>jul</option>
+                <option>aug</option>
+            </select>
+        </div>
+        <div>
+            <p>Share Your Experinece</p>
+            <textarea name="experience"></textarea>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+
+</body>
+</html>
